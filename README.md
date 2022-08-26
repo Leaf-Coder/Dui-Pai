@@ -16,7 +16,7 @@
 
 ## 初始化
 1. 按上方绿色的 `Code` 按钮，选择 `Download Zip`，解压压缩包。
-1. 把 GCC (或称 MinGW, MinGW-w64) 路径添加到环境变量 `Path` 里。如果你用的是代码编辑器，你应该已经做过了，可以跳过；如果你没做过，你需要：
+1. 如果你还没有把 GCC 路径添加到环境变量 `Path` （或不知道这是什么意思）：
     1. 进入你写代码用的 IDE 的安装目录，找里面名字类似 `MinGW` 或 `GCC` 的文件夹，进入它，再进入它里面的文件夹 `bin`，然后点击上面的路径栏，复制路径。（如果找不到，[下载 MinGW-w64](https://nchc.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z) ，解压并如上操作）
     1. 点击“开始”按钮，输入 `environ`, 点击“编辑系统环境变量”，再点击 `环境变量(N)` 。
     1. 有两个列表，双击下面的列表中的 `Path` 一行，点击右侧的 `新建(N)` 。在出现的新行中粘贴刚才的路径。最后连续点 `确定` 。
